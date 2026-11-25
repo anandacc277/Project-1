@@ -10,8 +10,7 @@ It creates:
 - An Amazon Linux 2 EC2 instance
 - Apache HTTPD and a health check page
 
-The web server is accessible over HTTP. The security group also reserves HTTPS port 443, although Apache is not configured with a TLS certificate. The health check endpoint is available at `/health.txt`.
-
+The web server is accessible over HTTP. The security group also reserves HTTPS port 443, although Apache is not configured with a TLS certificate.
 ## Architecture
 
 ```text
